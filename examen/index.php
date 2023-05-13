@@ -44,7 +44,7 @@
                 $query .= " apellido as Surname, ";
                 $query .= " edad as Age, ";
                 $query .= " correo_electronico as Email, ";
-                $query .= " Usuario.tipo_usuario as Type ";
+                $query .= " usuario.tipo_usuario as Type ";
                 $query .= "FROM usuario ";
 
                 $result = mysqli_query($conn, $query);
