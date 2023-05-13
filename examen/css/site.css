@@ -84,7 +84,7 @@ body {
 }
 /* ---------- AGREGAR VIDEO ---------- */
 .cursos {
-  /* min-height: 657px; */
+  min-height: 657px;
   display: flex;
   justify-content: center;
   align-items: center;
